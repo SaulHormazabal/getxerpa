@@ -113,7 +113,6 @@ Respuesta:
 - **Poetry**: gestor de dependencias para Python
 - **Django**: framework para la creación aplicaciones web
 - **Django Rest Framework**: librería para crear APIs Rest
-- **Prospector**: suite para análisis estático de código Python
 - **markdownlint-cli2**: librería para análisis estático de archivos markdown
 
 ### Diseño
@@ -152,10 +151,5 @@ Actions donde se evalúa lo siguiente:
 en el código fuente
 - Análisis estático de markdown: permite mantener un formato consistente
 favoreciendo un estilo de escritura fácil de leer sin un visualizador
-- Análisis estático de código Python: se utiliza prospecto para agrupar
-y facilitar el uso de las siguientes herramientas
-  - Dodgy: detecta problemas de seguridad
-  - McCabe: complejidad ciclomática
-  - PyCodeStyle: detecta incumplimientos a la convención de docstring PEP 257
-  - PyFlakes: análisis del estilo de código
-  - PyLint: análisis del estilo de código
+- Análisis estático de código Python: Se utiliza Flake8 y PyLint
+- Cobertura: se debe mantener un mínimo de cobertura del 90%
