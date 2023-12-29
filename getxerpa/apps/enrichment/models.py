@@ -47,8 +47,20 @@ class Keyword(models.Model):
 
     id = models.UUIDField(primary_key=True, default=uuid.uuid4, editable=False)
     name = models.CharField(max_length=255)
-    merchant = models.ForeignKey(Merchant, on_delete=models.CASCADE, related_name='keywords')
     weight = models.IntegerField(default=1)
+
+    merchant = models.ForeignKey(
+        Merchant,
+        on_delete=models.CASCADE,
+        related_name='keywords',
+        null=True,
+    )
+    category = models.ForeignKey(
+        Category,
+        on_delete=models.CASCADE,
+        related_name='keywords',
+        null=True,
+    )
 
     created_at = models.DateTimeField(auto_now_add=True)
     updated_at = models.DateTimeField(auto_now=True)
@@ -63,20 +75,24 @@ ENRICHMENT_TRANSACTION_SQL = '''
         m.id AS merchant_id,
         m.name AS merchant_name,
 
-        c.id AS category_id,
-        c.name AS category_name,
+        COALESCE(c.id, k.category_id) AS category_id,
+        COALESCE(c.name, kc.name) AS category_name,
 
         k.id AS keyword_id,
         k.name AS keyword_name
 
     FROM
         transactions_transaction t
+
     LEFT JOIN
         enrichment_keyword k ON t.description ILIKE '%' || k.name || '%'
     LEFT JOIN
         enrichment_merchant m ON k.merchant_id = m.id
     LEFT JOIN
         enrichment_category c ON c.id = m.category_id
+    LEFT JOIN
+        enrichment_category kc ON kc.id = k.category_id
+
     ORDER BY
         t.id,
         k.weight DESC

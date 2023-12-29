@@ -56,3 +56,19 @@ class EnrichmentTransactionModelTest(TestCase):
 
         self.assertEqual(transaction.enrichment.merchant_id, None)
         self.assertEqual(transaction.enrichment.category_id, None)
+
+    def test_category_without_merchant(self):
+        Keyword.objects.create(
+            name='pizza',
+            category=self.category_restaurant,
+            weight=2,
+        )
+
+        transaction = Transaction.objects.create(
+            description='DOMINO PIZZA',
+            amount=100.0,
+            date='2019-01-01',
+        )
+
+        self.assertEqual(transaction.enrichment.merchant_id, None)
+        self.assertEqual(transaction.enrichment.category_id, self.category_restaurant.id)
