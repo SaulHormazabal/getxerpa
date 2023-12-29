@@ -1,13 +1,21 @@
-from rest_framework.serializers import ModelSerializer
-from rest_framework_bulk import BulkListSerializer, BulkSerializerMixin
+from rest_framework import serializers
 
-from .models import Transaction
+from .models import Category, Merchant, Keyword
 
 
-class TransactionSerializer(BulkSerializerMixin, ModelSerializer):
-    class Meta(object):
-        model = Transaction
+class CategorySerializer(serializers.ModelSerializer):
+    class Meta:
+        model = Category
         fields = '__all__'
-        list_serializer_class = BulkListSerializer
 
 
+class MerchantSerializer(serializers.ModelSerializer):
+    class Meta:
+        model = Merchant
+        fields = '__all__'
+
+
+class KeywordSerializer(serializers.ModelSerializer):
+    class Meta:
+        model = Keyword
+        fields = '__all__'

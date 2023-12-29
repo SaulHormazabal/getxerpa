@@ -137,9 +137,11 @@ utilizando una vista, favoreciendo la integridad de los datos y un mayor rendimi
 
 ### Enriquecimiento
 
-El enriquecimiento se realiza dentro de una vista de Postgres en donde se buscar keyword dentro de la descripción de las transacciones.
+El enriquecimiento se realiza dentro de una vista de Postgres en donde se buscar
+keyword dentro de la descripción de las transacciones.
 
-Para el caso en que una descripción de transacción tenga más de una keyword será el peso el que determine cual tiene mayor relevancia.
+Para el caso en que una descripción de transacción tenga más de una keyword será
+el peso el que determine cual tiene mayor relevancia.
 
 ### Integración continua
 

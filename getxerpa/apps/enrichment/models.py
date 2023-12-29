@@ -1,14 +1,13 @@
 import uuid
 
 from django.db import models
-from rest_framework.fields import uuid
 from django_pgviews import view as pg
 
 from getxerpa.apps.transactions.models import Transaction
 
 
 class CategoryType(models.Model):
-    
+
     id = models.UUIDField(primary_key=True, default=uuid.uuid4, editable=False)
     name = models.CharField(max_length=255)
 
@@ -33,7 +32,12 @@ class Merchant(models.Model):
     name = models.CharField(max_length=255)
     logo = models.URLField(null=True)
 
-    category = models.ForeignKey(Category, null=True, on_delete=models.CASCADE, related_name='merchants')
+    category = models.ForeignKey(
+        Category,
+        null=True,
+        on_delete=models.CASCADE,
+        related_name='merchants',
+    )
 
     created_at = models.DateTimeField(auto_now_add=True)
     updated_at = models.DateTimeField(auto_now=True)
@@ -53,13 +57,17 @@ class Keyword(models.Model):
 ENRICHMENT_TRANSACTION_SQL = '''
     SELECT
         DISTINCT ON (t.id) t.id,
+        t.id AS transaction_id,
         t.description,
 
         m.id AS merchant_id,
         m.name AS merchant_name,
 
         c.id AS category_id,
-        c.name AS category_name
+        c.name AS category_name,
+
+        k.id AS keyword_id,
+        k.name AS keyword_name
 
     FROM
         transactions_transaction t
@@ -78,11 +86,15 @@ ENRICHMENT_TRANSACTION_SQL = '''
 
 class EnrichmentTransaction(pg.View):
 
-    transaction = models.OneToOneField(Transaction, on_delete=models.CASCADE, related_name='enrichment')
+    transaction = models.OneToOneField(
+        Transaction,
+        on_delete=models.CASCADE,
+        related_name='enrichment',
+    )
 
     merchant = models.ForeignKey(Merchant, on_delete=models.CASCADE, related_name='enrichments')
     category = models.ForeignKey(Category, on_delete=models.CASCADE, related_name='enrichments')
-    keywords = models.ForeignKey(Keyword, on_delete=models.CASCADE, related_name='enrichments')
+    keyword = models.ForeignKey(Keyword, on_delete=models.CASCADE, related_name='enrichments')
 
     sql = ENRICHMENT_TRANSACTION_SQL
 

@@ -1,0 +1,71 @@
+name: Ejecutar pruebas
+
+on: [push, pull_request]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    env:
+      DJANGO_SETTINGS_MODULE: getxerpa.config.settings
+      SECRET_KEY: super-secret-key
+      DATABASE_NAME: getxerpa
+      DATABASE_USER: postgres
+      DATABASE_PASSWORD: password
+      DATABASE_HOST: localhost
+      DATABASE_PORT: 5432
+      ALLOWED_HOSTS: getxerpa.localhost
+
+    services:
+      postgres:
+        image: postgres:latest
+        env:
+          POSTGRES_DB: ${{ env.DATABASE_NAME }}
+          POSTGRES_USER: ${{ env.DATABASE_USER }}
+          POSTGRES_PASSWORD: ${{ env.DATABASE_PASSWORD }}
+        ports:
+          - 5432:5432
+        options: --health-cmd pg_isready --health-interval 10s --health-timeout 5s --health-retries 5
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Configurar Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: 3.11.6
+
+      - name: Instalar dependencias
+        run: |
+          pip install poetry
+          poetry config virtualenvs.create false
+          poetry install
+
+      - name: Flake8
+        run: flake8
+
+      - name: Pylint
+        run: pylint getxerpa
+
+      - name: Dodgy
+        run: dodgy
+
+      - name: Tests
+        run: coverage run manage.py test -v 2
+        env:
+          DJANGO_SETTINGS_MODULE: ${{ env.DJANGO_SETTINGS_MODULE }}
+          SECRET_KEY: ${{ env.SECRET_KEY }}
+          DATABASE_NAME: ${{ env.DATABASE_NAME }}
+          DATABASE_USER: ${{ env.DATABASE_USER }}
+          DATABASE_PASSWORD: ${{ env.DATABASE_PASSWORD }}
+          DATABASE_HOST: ${{ env.DATABASE_HOST }}
+          DATABASE_PORT: ${{ env.DATABASE_PORT }}
+          SUPERHERO_API_URL: ${{ env.SUPERHERO_API_URL }}
+          CELERY_BROKER_REDIS_URL: ${{ env.CELERY_BROKER_REDIS_URL }}
+          ALLOWED_HOSTS: ${{ env.ALLOWED_HOSTS }}
+
+      - name: Reporte de cobertura
+        run: coverage report --fail-under 90 -m
+
+      - name: Estilo de markdowns
+        uses: DavidAnson/markdownlint-cli2-action@v12
