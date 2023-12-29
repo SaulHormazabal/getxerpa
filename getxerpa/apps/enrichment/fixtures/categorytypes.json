@@ -1,0 +1,20 @@
+[
+{
+  "model": "enrichment.categorytype",
+  "pk": "1244827b-faa6-4637-ba6b-4157234d2de0",
+  "fields": {
+    "name": "expense",
+    "created_at": "2023-12-29T04:59:47.236Z",
+    "updated_at": "2023-12-29T04:59:47.239Z"
+  }
+},
+{
+  "model": "enrichment.categorytype",
+  "pk": "abf72eb0-4169-4673-94d1-4e9e2a427235",
+  "fields": {
+    "name": "income",
+    "created_at": "2023-12-29T04:59:47.236Z",
+    "updated_at": "2023-12-29T04:59:47.239Z"
+  }
+}
+]

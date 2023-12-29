@@ -1,0 +1,101 @@
+[
+{
+  "model": "enrichment.keyword",
+  "pk": "09153e68-799c-467e-a0c7-4ad386794a8c",
+  "fields": {
+    "name": "uber eats",
+    "merchant": "f9b21d31-c9b7-4891-a380-ede2c12cb1f9",
+    "weight": 2,
+    "created_at": "2023-12-29T04:59:47.242Z",
+    "updated_at": "2023-12-29T04:59:47.245Z"
+  }
+},
+{
+  "model": "enrichment.keyword",
+  "pk": "1b700aba-760e-4d69-9acb-95d59a9ca7a1",
+  "fields": {
+    "name": "uber",
+    "merchant": "424b4f71-d3b9-4865-84ec-b32052df1333",
+    "weight": 1,
+    "created_at": "2023-12-29T04:59:47.242Z",
+    "updated_at": "2023-12-29T04:59:47.245Z"
+  }
+},
+{
+  "model": "enrichment.keyword",
+  "pk": "5cc37a75-f692-4daf-a192-6dc18336d94c",
+  "fields": {
+    "name": "ubereats",
+    "merchant": "f9b21d31-c9b7-4891-a380-ede2c12cb1f9",
+    "weight": 2,
+    "created_at": "2023-12-29T04:59:47.242Z",
+    "updated_at": "2023-12-29T04:59:47.245Z"
+  }
+},
+{
+  "model": "enrichment.keyword",
+  "pk": "7115b894-bd7d-4881-ad75-1661f3030ebc",
+  "fields": {
+    "name": "c verde",
+    "merchant": "9bdf256a-6b12-4e92-aefe-5102bd3d8f5d",
+    "weight": 2,
+    "created_at": "2023-12-29T04:59:47.242Z",
+    "updated_at": "2023-12-29T04:59:47.245Z"
+  }
+},
+{
+  "model": "enrichment.keyword",
+  "pk": "7e377a8b-f005-4fcb-948d-b3f8a7255f2c",
+  "fields": {
+    "name": "petrobras",
+    "merchant": "d28f1b52-d261-4773-95e1-9c46899d7812",
+    "weight": 1,
+    "created_at": "2023-12-29T04:59:47.242Z",
+    "updated_at": "2023-12-29T04:59:47.245Z"
+  }
+},
+{
+  "model": "enrichment.keyword",
+  "pk": "9e31b22a-67be-466b-a07a-4fc095d3370a",
+  "fields": {
+    "name": "jumbo",
+    "merchant": "5fbc6e21-fd4a-4eb8-97fe-0a63773c90e8",
+    "weight": 1,
+    "created_at": "2023-12-29T04:59:47.242Z",
+    "updated_at": "2023-12-29T04:59:47.245Z"
+  }
+},
+{
+  "model": "enrichment.keyword",
+  "pk": "af893ddb-4257-458b-8bee-cef40532b6e8",
+  "fields": {
+    "name": "c. verde",
+    "merchant": "9bdf256a-6b12-4e92-aefe-5102bd3d8f5d",
+    "weight": 2,
+    "created_at": "2023-12-29T04:59:47.242Z",
+    "updated_at": "2023-12-29T04:59:47.245Z"
+  }
+},
+{
+  "model": "enrichment.keyword",
+  "pk": "d34272f1-11c4-44d8-aa2b-e808957ebcc3",
+  "fields": {
+    "name": "salcobrand",
+    "merchant": "9bdf256a-6b12-4e92-aefe-5102bd3d8f5d",
+    "weight": 2,
+    "created_at": "2023-12-29T04:59:47.242Z",
+    "updated_at": "2023-12-29T04:59:47.245Z"
+  }
+},
+{
+  "model": "enrichment.keyword",
+  "pk": "f30ed59d-bd81-4739-8a8b-79f8e805b5a7",
+  "fields": {
+    "name": "santander",
+    "merchant": "41ae2274-14b5-4fea-aaad-ebac7a48e7be",
+    "weight": 1,
+    "created_at": "2023-12-29T04:59:47.242Z",
+    "updated_at": "2023-12-29T04:59:47.245Z"
+  }
+}
+]
