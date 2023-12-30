@@ -4,7 +4,7 @@
   "pk": "0129392c-267e-480d-8f73-0c180d4da724",
   "fields": {
     "description": "FACEBK 85GSQFKH92",
-    "amount": 1.0,
+    "amount": -100.0,
     "date": "2024-01-08",
     "created_at": "2023-12-29T04:59:47.257Z",
     "updated_at": "2023-12-29T04:59:47.259Z"
@@ -15,7 +15,7 @@
   "pk": "01509ee3-ae35-4609-8d70-59feac65613b",
   "fields": {
     "description": "DOMINO'S 4342",
-    "amount": 1.0,
+    "amount": -100.0,
     "date": "2024-01-20",
     "created_at": "2023-12-29T04:59:47.257Z",
     "updated_at": "2023-12-29T04:59:47.259Z"
@@ -26,7 +26,7 @@
   "pk": "019b974b-6df2-46ff-b8a6-fe3018504aa1",
   "fields": {
     "description": "DOMINO S PIZZA LA 10",
-    "amount": 1.0,
+    "amount": -100.0,
     "date": "2024-01-14",
     "created_at": "2023-12-29T04:59:47.257Z",
     "updated_at": "2023-12-29T04:59:47.259Z"
@@ -37,7 +37,7 @@
   "pk": "07ba1582-6857-4944-a63e-8643ce5c3354",
   "fields": {
     "description": "PAYPAL *UBER EATS",
-    "amount": 1.0,
+    "amount": -100.0,
     "date": "2024-03-11",
     "created_at": "2023-12-29T04:59:47.257Z",
     "updated_at": "2023-12-29T04:59:47.259Z"
@@ -48,7 +48,7 @@
   "pk": "08faf196-2a2a-46c9-9fd8-cb818adaf2b2",
   "fields": {
     "description": "EASY CERRILLOS",
-    "amount": 1.0,
+    "amount": -100.0,
     "date": "2024-02-11",
     "created_at": "2023-12-29T04:59:47.257Z",
     "updated_at": "2023-12-29T04:59:47.259Z"
@@ -59,7 +59,7 @@
   "pk": "09ce9171-8c2b-445e-a6de-3e2ca99c807a",
   "fields": {
     "description": "SALCOBRAND 433 JUMBO CALA",
-    "amount": 1.0,
+    "amount": -100.0,
     "date": "2024-01-22",
     "created_at": "2023-12-29T04:59:47.257Z",
     "updated_at": "2023-12-29T04:59:47.259Z"
@@ -70,7 +70,7 @@
   "pk": "0a7f3e2b-e9a9-4808-abf9-a2e8c9234539",
   "fields": {
     "description": "C. VERDE JUMBO V DEL M",
-    "amount": 1.0,
+    "amount": -100.0,
     "date": "2024-01-29",
     "created_at": "2023-12-29T04:59:47.257Z",
     "updated_at": "2023-12-29T04:59:47.259Z"
@@ -81,7 +81,7 @@
   "pk": "10fe9929-655a-4256-bf0f-8ccd13204a9c",
   "fields": {
     "description": "PAYPAL *UBER BV",
-    "amount": 1.0,
+    "amount": -100.0,
     "date": "2024-03-07",
     "created_at": "2023-12-29T04:59:47.257Z",
     "updated_at": "2023-12-29T04:59:47.259Z"
@@ -92,7 +92,7 @@
   "pk": "13fd3e6e-b388-4fa4-9dd0-7f01df7eb5d2",
   "fields": {
     "description": "EXPRESS ANTOFAG PEREZ",
-    "amount": 1.0,
+    "amount": -100.0,
     "date": "2024-02-23",
     "created_at": "2023-12-29T04:59:47.257Z",
     "updated_at": "2023-12-29T04:59:47.259Z"
@@ -103,7 +103,7 @@
   "pk": "2136d633-09f4-404b-a23c-caeab8836584",
   "fields": {
     "description": "MP *RECARGA BIP]",
-    "amount": 1.0,
+    "amount": -100.0,
     "date": "2024-03-01",
     "created_at": "2023-12-29T04:59:47.257Z",
     "updated_at": "2023-12-29T04:59:47.259Z"
@@ -114,7 +114,7 @@
   "pk": "261957e8-93ee-4722-9613-d8947fb951ba",
   "fields": {
     "description": "PEDIDOSYA MARKETS 9262",
-    "amount": 1.0,
+    "amount": -100.0,
     "date": "2024-01-04",
     "created_at": "2023-12-29T04:59:47.257Z",
     "updated_at": "2023-12-29T04:59:47.259Z"
@@ -125,7 +125,7 @@
   "pk": "282e7e6d-35db-480e-bdbc-bac5ffb8dbc1",
   "fields": {
     "description": "EXPRESS CIUD DE LOS VALLE",
-    "amount": 1.0,
+    "amount": -100.0,
     "date": "2024-02-27",
     "created_at": "2023-12-29T04:59:47.257Z",
     "updated_at": "2023-12-29T04:59:47.259Z"
@@ -136,7 +136,7 @@
   "pk": "2d22fbdb-bf72-4726-a5ac-b7ad860ce732",
   "fields": {
     "description": "CRUZVERDE CV 9060",
-    "amount": 1.0,
+    "amount": -100.0,
     "date": "2024-01-24",
     "created_at": "2023-12-29T04:59:47.257Z",
     "updated_at": "2023-12-29T04:59:47.259Z"
@@ -144,10 +144,21 @@
 },
 {
   "model": "transactions.transaction",
+  "pk": "2eb006b8-d970-4c66-acb6-70e0ebff5cf5",
+  "fields": {
+    "description": "transferencias",
+    "amount": 100.0,
+    "date": "2023-12-29",
+    "created_at": "2023-12-29T07:49:29.397Z",
+    "updated_at": "2023-12-29T07:49:29.397Z"
+  }
+},
+{
+  "model": "transactions.transaction",
   "pk": "33db0fe0-d0a2-408a-9cbc-6336b8071513",
   "fields": {
     "description": "EASY CONCHA Y TORO",
-    "amount": 1.0,
+    "amount": -100.0,
     "date": "2024-02-14",
     "created_at": "2023-12-29T04:59:47.257Z",
     "updated_at": "2023-12-29T04:59:47.259Z"
@@ -158,7 +169,7 @@
   "pk": "33e55891-f07b-4c71-a088-6ae2680cc182",
   "fields": {
     "description": "merpago aguasandinas",
-    "amount": 1.0,
+    "amount": -100.0,
     "date": "2024-01-31",
     "created_at": "2023-12-29T04:59:47.257Z",
     "updated_at": "2023-12-29T04:59:47.259Z"
@@ -169,7 +180,7 @@
   "pk": "3ae9f5a7-c79d-4286-80be-99086d034e3a",
   "fields": {
     "description": "BOLT",
-    "amount": 1.0,
+    "amount": -100.0,
     "date": "2024-03-29",
     "created_at": "2023-12-29T04:59:47.257Z",
     "updated_at": "2023-12-29T04:59:47.259Z"
@@ -180,7 +191,7 @@
   "pk": "3b83827a-f512-4fd3-b5e8-bde5abbe12d1",
   "fields": {
     "description": "UBER EATS",
-    "amount": 1.0,
+    "amount": -100.0,
     "date": "2024-03-19",
     "created_at": "2023-12-29T04:59:47.257Z",
     "updated_at": "2023-12-29T04:59:47.259Z"
@@ -191,7 +202,7 @@
   "pk": "3e60fb9e-9dc9-4723-b9b0-327a44979708",
   "fields": {
     "description": "EASY CONCHA Y TORO",
-    "amount": 1.0,
+    "amount": -100.0,
     "date": "2024-02-15",
     "created_at": "2023-12-29T04:59:47.257Z",
     "updated_at": "2023-12-29T04:59:47.259Z"
@@ -202,7 +213,7 @@
   "pk": "3e7bef79-e467-452a-9728-58da5a74993b",
   "fields": {
     "description": "PAYPAL *UBER BV",
-    "amount": 1.0,
+    "amount": -100.0,
     "date": "2024-03-06",
     "created_at": "2023-12-29T04:59:47.257Z",
     "updated_at": "2023-12-29T04:59:47.259Z"
@@ -213,7 +224,7 @@
   "pk": "4057443b-e4fe-4ade-aeca-75762269b686",
   "fields": {
     "description": "C. VERDE JUMBO V DEL MAR",
-    "amount": 1.0,
+    "amount": -100.0,
     "date": "2024-01-30",
     "created_at": "2023-12-29T04:59:47.257Z",
     "updated_at": "2023-12-29T04:59:47.259Z"
@@ -224,7 +235,7 @@
   "pk": "441afcf9-fea2-4bc1-85c7-ca9e5fb3b812",
   "fields": {
     "description": "PAYPAL *UBERBV EATS",
-    "amount": 1.0,
+    "amount": -100.0,
     "date": "2024-03-12",
     "created_at": "2023-12-29T04:59:47.257Z",
     "updated_at": "2023-12-29T04:59:47.259Z"
@@ -235,7 +246,7 @@
   "pk": "45c9ae1b-f73b-4725-9089-4441f3936738",
   "fields": {
     "description": "PETROBRAS AEROPUERTO",
-    "amount": 1.0,
+    "amount": -100.0,
     "date": "2023-12-30",
     "created_at": "2023-12-29T04:59:47.257Z",
     "updated_at": "2023-12-29T04:59:47.259Z"
@@ -246,7 +257,7 @@
   "pk": "4e741396-0957-469f-bb31-8146695a974d",
   "fields": {
     "description": "DOMINO S PIZZA",
-    "amount": 1.0,
+    "amount": -100.0,
     "date": "2024-01-12",
     "created_at": "2023-12-29T04:59:47.257Z",
     "updated_at": "2023-12-29T04:59:47.259Z"
@@ -257,7 +268,7 @@
   "pk": "53ae625b-59f7-4c86-9f49-fc0d49af9043",
   "fields": {
     "description": "PETROBRAS 9 NTE/7 ORNTE",
-    "amount": 1.0,
+    "amount": -100.0,
     "date": "2023-12-29",
     "created_at": "2023-12-29T04:59:47.257Z",
     "updated_at": "2023-12-29T04:59:47.259Z"
@@ -268,7 +279,7 @@
   "pk": "55ce02a6-e9d4-4be2-ab76-8d2f5ef65e3f",
   "fields": {
     "description": "EXPRESS - LIDER",
-    "amount": 1.0,
+    "amount": -100.0,
     "date": "2024-02-16",
     "created_at": "2023-12-29T04:59:47.257Z",
     "updated_at": "2023-12-29T04:59:47.259Z"
@@ -279,7 +290,7 @@
   "pk": "56cc647a-c279-4b1f-a34d-4e081b198934",
   "fields": {
     "description": "CRUZVERDE CV 9061",
-    "amount": 1.0,
+    "amount": -100.0,
     "date": "2024-01-25",
     "created_at": "2023-12-29T04:59:47.257Z",
     "updated_at": "2023-12-29T04:59:47.259Z"
@@ -290,7 +301,7 @@
   "pk": "56da91b6-2c64-442a-b48b-4d2dc0322384",
   "fields": {
     "description": "DOMINO'S 3684",
-    "amount": 1.0,
+    "amount": -100.0,
     "date": "2024-01-19",
     "created_at": "2023-12-29T04:59:47.257Z",
     "updated_at": "2023-12-29T04:59:47.259Z"
@@ -301,7 +312,7 @@
   "pk": "5733abe1-793e-474c-9f3d-cc90293c1336",
   "fields": {
     "description": "MCB 02 AGUAS ANDINAS",
-    "amount": 1.0,
+    "amount": -100.0,
     "date": "2024-02-04",
     "created_at": "2023-12-29T04:59:47.257Z",
     "updated_at": "2023-12-29T04:59:47.259Z"
@@ -312,7 +323,7 @@
   "pk": "590cbee4-86f9-4b11-84c4-597a6c7cff4c",
   "fields": {
     "description": "EXPRESS ANGELINO",
-    "amount": 1.0,
+    "amount": -100.0,
     "date": "2024-02-22",
     "created_at": "2023-12-29T04:59:47.257Z",
     "updated_at": "2023-12-29T04:59:47.259Z"
@@ -323,7 +334,7 @@
   "pk": "5ac4a1c1-92e1-4a36-97ff-f3f528ae2bce",
   "fields": {
     "description": "CRUZVERDE CV9081",
-    "amount": 1.0,
+    "amount": -100.0,
     "date": "2024-01-26",
     "created_at": "2023-12-29T04:59:47.257Z",
     "updated_at": "2023-12-29T04:59:47.259Z"
@@ -334,7 +345,7 @@
   "pk": "5e9f18a3-f03f-4105-add0-9ea53a47100a",
   "fields": {
     "description": "EXPRESS BUIN SAN MARTIN",
-    "amount": 1.0,
+    "amount": -100.0,
     "date": "2024-02-24",
     "created_at": "2023-12-29T04:59:47.257Z",
     "updated_at": "2023-12-29T04:59:47.259Z"
@@ -345,7 +356,7 @@
   "pk": "61b6617c-2bf8-4c0d-8ee2-a9a908c03862",
   "fields": {
     "description": "PEDIDOSYA 3D SUPERMERC",
-    "amount": 1.0,
+    "amount": -100.0,
     "date": "2024-01-02",
     "created_at": "2023-12-29T04:59:47.257Z",
     "updated_at": "2023-12-29T04:59:47.259Z"
@@ -356,7 +367,7 @@
   "pk": "63261ab7-9c17-4ad8-8ef5-c4ab71a9b282",
   "fields": {
     "description": "UBER EATS",
-    "amount": 1.0,
+    "amount": -100.0,
     "date": "2024-03-18",
     "created_at": "2023-12-29T04:59:47.257Z",
     "updated_at": "2023-12-29T04:59:47.259Z"
@@ -367,7 +378,7 @@
   "pk": "64897036-6b19-4c35-898d-2b0163f96098",
   "fields": {
     "description": "SumUp *DOMINOS PIZZA G",
-    "amount": 1.0,
+    "amount": -100.0,
     "date": "2024-01-10",
     "created_at": "2023-12-29T04:59:47.257Z",
     "updated_at": "2023-12-29T04:59:47.259Z"
@@ -378,7 +389,7 @@
   "pk": "6613cefb-a26d-46ea-9f97-35584acbb3a1",
   "fields": {
     "description": "EXPRESS ANDINO",
-    "amount": 1.0,
+    "amount": -100.0,
     "date": "2024-02-20",
     "created_at": "2023-12-29T04:59:47.257Z",
     "updated_at": "2023-12-29T04:59:47.259Z"
@@ -389,7 +400,7 @@
   "pk": "6790b0c9-acce-4fb7-a482-588794b9732d",
   "fields": {
     "description": "EXPRESS - LIDER CONCE TRE",
-    "amount": 1.0,
+    "amount": -100.0,
     "date": "2024-02-18",
     "created_at": "2023-12-29T04:59:47.257Z",
     "updated_at": "2023-12-29T04:59:47.259Z"
@@ -400,7 +411,7 @@
   "pk": "67cbc2f5-c5c0-42bb-a486-498f8b292d5f",
   "fields": {
     "description": "EXPRESS - LIDER CONCE",
-    "amount": 1.0,
+    "amount": -100.0,
     "date": "2024-02-17",
     "created_at": "2023-12-29T04:59:47.257Z",
     "updated_at": "2023-12-29T04:59:47.259Z"
@@ -411,7 +422,7 @@
   "pk": "691eee47-e813-45b6-ba5f-d740aa756e6e",
   "fields": {
     "description": "CRUZVERDE CV 9059",
-    "amount": 1.0,
+    "amount": -100.0,
     "date": "2024-01-23",
     "created_at": "2023-12-29T04:59:47.257Z",
     "updated_at": "2023-12-29T04:59:47.259Z"
@@ -422,7 +433,7 @@
   "pk": "6a52aef4-b799-47e9-8696-f65947be00d5",
   "fields": {
     "description": "MP *RECARGA BIP|",
-    "amount": 1.0,
+    "amount": -100.0,
     "date": "2024-03-02",
     "created_at": "2023-12-29T04:59:47.257Z",
     "updated_at": "2023-12-29T04:59:47.259Z"
@@ -433,7 +444,7 @@
   "pk": "6b4da43a-bf51-4451-9523-4a54823f9cd3",
   "fields": {
     "description": "UBER *EATS HELP.UBER.C",
-    "amount": 1.0,
+    "amount": -100.0,
     "date": "2024-03-14",
     "created_at": "2023-12-29T04:59:47.257Z",
     "updated_at": "2023-12-29T04:59:47.259Z"
@@ -444,7 +455,7 @@
   "pk": "6db92a46-a85d-4458-914a-258954724c95",
   "fields": {
     "description": "UNDER AMOUR MALL PLAZA VE",
-    "amount": 1.0,
+    "amount": -100.0,
     "date": "2024-03-22",
     "created_at": "2023-12-29T04:59:47.257Z",
     "updated_at": "2023-12-29T04:59:47.259Z"
@@ -455,7 +466,7 @@
   "pk": "70dbfd4a-785f-4b8f-9c1e-222293a2254f",
   "fields": {
     "description": "Domino s Pizza Frederi",
-    "amount": 1.0,
+    "amount": -100.0,
     "date": "2024-01-13",
     "created_at": "2023-12-29T04:59:47.257Z",
     "updated_at": "2023-12-29T04:59:47.259Z"
@@ -466,7 +477,7 @@
   "pk": "714267f6-b2e8-4b3e-985f-16b3576fe82f",
   "fields": {
     "description": "PEDIDOSYA PROPINA",
-    "amount": 1.0,
+    "amount": -100.0,
     "date": "2024-01-05",
     "created_at": "2023-12-29T04:59:47.257Z",
     "updated_at": "2023-12-29T04:59:47.259Z"
@@ -477,7 +488,7 @@
   "pk": "774e8902-bf0b-429b-a83d-76b3e00ffe55",
   "fields": {
     "description": "UNDER ARMOUR",
-    "amount": 1.0,
+    "amount": -100.0,
     "date": "2024-03-23",
     "created_at": "2023-12-29T04:59:47.257Z",
     "updated_at": "2023-12-29T04:59:47.259Z"
@@ -488,7 +499,7 @@
   "pk": "77c853fa-6e36-43d6-a651-748c9f0f3e7d",
   "fields": {
     "description": "FACEBK 85R97HKYG2",
-    "amount": 1.0,
+    "amount": -100.0,
     "date": "2024-01-09",
     "created_at": "2023-12-29T04:59:47.257Z",
     "updated_at": "2023-12-29T04:59:47.259Z"
@@ -499,7 +510,7 @@
   "pk": "78c3f703-f022-4704-bffe-e5bfcda470d3",
   "fields": {
     "description": "PAYU-UBER 828987",
-    "amount": 1.0,
+    "amount": -100.0,
     "date": "2024-03-10",
     "created_at": "2023-12-29T04:59:47.257Z",
     "updated_at": "2023-12-29T04:59:47.259Z"
@@ -510,7 +521,7 @@
   "pk": "799671fe-b5ef-4697-b156-9883099b405d",
   "fields": {
     "description": "UNIMARC - COORONEL",
-    "amount": 1.0,
+    "amount": -100.0,
     "date": "2024-03-30",
     "created_at": "2023-12-29T04:59:47.257Z",
     "updated_at": "2023-12-29T04:59:47.259Z"
@@ -521,7 +532,7 @@
   "pk": "7dcbae0d-151b-44c7-9319-1c2b2321cf23",
   "fields": {
     "description": "DOMINO'S 2080",
-    "amount": 1.0,
+    "amount": -100.0,
     "date": "2024-01-16",
     "created_at": "2023-12-29T04:59:47.257Z",
     "updated_at": "2023-12-29T04:59:47.259Z"
@@ -532,7 +543,7 @@
   "pk": "81c47f02-176d-4e5f-aa71-ae7a530bc3b2",
   "fields": {
     "description": "PEDIDOSYA INDUMENT RIDERS",
-    "amount": 1.0,
+    "amount": -100.0,
     "date": "2024-01-03",
     "created_at": "2023-12-29T04:59:47.257Z",
     "updated_at": "2023-12-29T04:59:47.259Z"
@@ -543,7 +554,7 @@
   "pk": "8318ac71-771f-4c1a-b0d3-14811665b42e",
   "fields": {
     "description": "UNDER ARMOUR CANCUN IC",
-    "amount": 1.0,
+    "amount": -100.0,
     "date": "2024-03-24",
     "created_at": "2023-12-29T04:59:47.257Z",
     "updated_at": "2023-12-29T04:59:47.259Z"
@@ -554,7 +565,7 @@
   "pk": "845382fa-20cf-48bd-9e17-9a3b1d324ddd",
   "fields": {
     "description": "AGUAS ANDINAS ONEPAY",
-    "amount": 1.0,
+    "amount": -100.0,
     "date": "2024-02-03",
     "created_at": "2023-12-29T04:59:47.257Z",
     "updated_at": "2023-12-29T04:59:47.259Z"
@@ -565,7 +576,7 @@
   "pk": "853b523b-35ee-46e4-890b-54ab345562ca",
   "fields": {
     "description": "EASY CALAMA",
-    "amount": 1.0,
+    "amount": -100.0,
     "date": "2024-02-10",
     "created_at": "2023-12-29T04:59:47.257Z",
     "updated_at": "2023-12-29T04:59:47.259Z"
@@ -576,7 +587,7 @@
   "pk": "85698aa1-13f0-4413-97f8-e589dac88b29",
   "fields": {
     "description": "UBER *EATS HELP.UBER.C",
-    "amount": 1.0,
+    "amount": -100.0,
     "date": "2024-03-15",
     "created_at": "2023-12-29T04:59:47.257Z",
     "updated_at": "2023-12-29T04:59:47.259Z"
@@ -587,7 +598,7 @@
   "pk": "8911c8c0-251a-496e-9edf-14dc490b5dbf",
   "fields": {
     "description": "CRUZVERDE CV9087",
-    "amount": 1.0,
+    "amount": -100.0,
     "date": "2024-01-27",
     "created_at": "2023-12-29T04:59:47.257Z",
     "updated_at": "2023-12-29T04:59:47.259Z"
@@ -598,7 +609,7 @@
   "pk": "898ebcab-a656-422d-83e0-7e95175cffd2",
   "fields": {
     "description": "AGUAS ANDINAS",
-    "amount": 1.0,
+    "amount": -100.0,
     "date": "2024-02-02",
     "created_at": "2023-12-29T04:59:47.257Z",
     "updated_at": "2023-12-29T04:59:47.259Z"
@@ -609,7 +620,7 @@
   "pk": "8aecdb46-e0a0-4abe-aee6-c6f5fdf5662b",
   "fields": {
     "description": "EXPRESS CIUDAD DEL ES",
-    "amount": 1.0,
+    "amount": -100.0,
     "date": "2024-02-29",
     "created_at": "2023-12-29T04:59:47.257Z",
     "updated_at": "2023-12-29T04:59:47.259Z"
@@ -620,7 +631,7 @@
   "pk": "8b0d4d05-b3ce-460d-be8d-d13557c4a241",
   "fields": {
     "description": "EASY ALTO LAS CONDE",
-    "amount": 1.0,
+    "amount": -100.0,
     "date": "2024-02-07",
     "created_at": "2023-12-29T04:59:47.257Z",
     "updated_at": "2023-12-29T04:59:47.259Z"
@@ -631,7 +642,7 @@
   "pk": "8cbbfef7-14f6-41dc-9037-363ae41a82a5",
   "fields": {
     "description": "UNIMARC ANTOFAGASTA",
-    "amount": 1.0,
+    "amount": -100.0,
     "date": "2024-04-02",
     "created_at": "2023-12-29T04:59:47.257Z",
     "updated_at": "2023-12-29T04:59:47.259Z"
@@ -642,7 +653,7 @@
   "pk": "8dd18e0a-b0b7-4e5f-974a-e6e83070ea1a",
   "fields": {
     "description": "EASY ALTO LAS CONDES",
-    "amount": 1.0,
+    "amount": -100.0,
     "date": "2024-02-08",
     "created_at": "2023-12-29T04:59:47.257Z",
     "updated_at": "2023-12-29T04:59:47.259Z"
@@ -653,7 +664,7 @@
   "pk": "8f0bb19e-fe85-4d4e-b4db-6e82d8d8e048",
   "fields": {
     "description": "PETROBRAS ALTO HOSPIC",
-    "amount": 1.0,
+    "amount": -100.0,
     "date": "2023-12-31",
     "created_at": "2023-12-29T04:59:47.257Z",
     "updated_at": "2023-12-29T04:59:47.259Z"
@@ -664,7 +675,7 @@
   "pk": "92f2745a-7b5e-4d47-bb93-84720ce48c92",
   "fields": {
     "description": "UNIMARC ARAUCO",
-    "amount": 1.0,
+    "amount": -100.0,
     "date": "2024-04-03",
     "created_at": "2023-12-29T04:59:47.257Z",
     "updated_at": "2023-12-29T04:59:47.259Z"
@@ -675,7 +686,7 @@
   "pk": "9b0f9739-a62d-4dc8-95d7-03a761dfdc29",
   "fields": {
     "description": "UNIMARC AV ESPANA",
-    "amount": 1.0,
+    "amount": -100.0,
     "date": "2024-04-05",
     "created_at": "2023-12-29T04:59:47.257Z",
     "updated_at": "2023-12-29T04:59:47.259Z"
@@ -686,7 +697,7 @@
   "pk": "9b507f7d-23ef-42aa-88a8-915ce17c3b09",
   "fields": {
     "description": "UBER* EATS",
-    "amount": 1.0,
+    "amount": -100.0,
     "date": "2024-03-20",
     "created_at": "2023-12-29T04:59:47.257Z",
     "updated_at": "2023-12-29T04:59:47.259Z"
@@ -697,7 +708,7 @@
   "pk": "9dcde562-e339-4db6-bf38-bf43a0a9c5b6",
   "fields": {
     "description": "DOMINO'S 2759",
-    "amount": 1.0,
+    "amount": -100.0,
     "date": "2024-01-17",
     "created_at": "2023-12-29T04:59:47.257Z",
     "updated_at": "2023-12-29T04:59:47.259Z"
@@ -708,7 +719,7 @@
   "pk": "a0bbb1c8-06ba-4f44-8b7b-5f89d7ffcee4",
   "fields": {
     "description": "EXPRESS CIUD DE LOS VA",
-    "amount": 1.0,
+    "amount": -100.0,
     "date": "2024-02-26",
     "created_at": "2023-12-29T04:59:47.257Z",
     "updated_at": "2023-12-29T04:59:47.259Z"
@@ -719,7 +730,7 @@
   "pk": "a1bc32c6-570c-4023-a017-f22b8b920c05",
   "fields": {
     "description": "PEDIDOSYA 3D RESTAURANT",
-    "amount": 1.0,
+    "amount": -100.0,
     "date": "2024-01-01",
     "created_at": "2023-12-29T04:59:47.257Z",
     "updated_at": "2023-12-29T04:59:47.259Z"
@@ -730,7 +741,7 @@
   "pk": "a3228c72-edf4-49bd-9fdc-4b20acd6b5ec",
   "fields": {
     "description": "PAYPAL *UBER",
-    "amount": 1.0,
+    "amount": -100.0,
     "date": "2024-03-04",
     "created_at": "2023-12-29T04:59:47.257Z",
     "updated_at": "2023-12-29T04:59:47.259Z"
@@ -741,7 +752,7 @@
   "pk": "a4ae22b8-ece0-41d1-9e5e-5d3ec953db4b",
   "fields": {
     "description": "EASY CHILLAN",
-    "amount": 1.0,
+    "amount": -100.0,
     "date": "2024-02-13",
     "created_at": "2023-12-29T04:59:47.257Z",
     "updated_at": "2023-12-29T04:59:47.259Z"
@@ -752,7 +763,7 @@
   "pk": "a5df86ea-77e8-4662-b9ba-a2c9173c0c7d",
   "fields": {
     "description": "PAYPAL *DOMINOS",
-    "amount": 1.0,
+    "amount": -100.0,
     "date": "2024-01-11",
     "created_at": "2023-12-29T04:59:47.257Z",
     "updated_at": "2023-12-29T04:59:47.259Z"
@@ -763,7 +774,7 @@
   "pk": "a750c767-024a-4f5d-ab4e-2945c434bb87",
   "fields": {
     "description": "EASY CHIGUAYANTE",
-    "amount": 1.0,
+    "amount": -100.0,
     "date": "2024-02-12",
     "created_at": "2023-12-29T04:59:47.257Z",
     "updated_at": "2023-12-29T04:59:47.259Z"
@@ -774,7 +785,7 @@
   "pk": "a7994344-229d-4595-9d01-cc88d61cfe5c",
   "fields": {
     "description": "EXPRESS ANDRNS MELLADO",
-    "amount": 1.0,
+    "amount": -100.0,
     "date": "2024-02-21",
     "created_at": "2023-12-29T04:59:47.257Z",
     "updated_at": "2023-12-29T04:59:47.259Z"
@@ -785,7 +796,7 @@
   "pk": "ab7282d6-ffb0-4923-bb4e-7ea0c73d9338",
   "fields": {
     "description": "SALCOBRAND 433 JUMBO C",
-    "amount": 1.0,
+    "amount": -100.0,
     "date": "2024-01-21",
     "created_at": "2023-12-29T04:59:47.257Z",
     "updated_at": "2023-12-29T04:59:47.259Z"
@@ -796,7 +807,7 @@
   "pk": "adb9f8c3-8b06-4136-bad6-95786fdf73fe",
   "fields": {
     "description": "Pago TDC ITAU",
-    "amount": 1.0,
+    "amount": -100.0,
     "date": "2024-03-27",
     "created_at": "2023-12-29T04:59:47.257Z",
     "updated_at": "2023-12-29T04:59:47.259Z"
@@ -807,7 +818,7 @@
   "pk": "b143f43c-3f07-4d97-9f9d-a6df7ce6c1ca",
   "fields": {
     "description": "Pago TDC ITAU",
-    "amount": 1.0,
+    "amount": -100.0,
     "date": "2024-03-28",
     "created_at": "2023-12-29T04:59:47.257Z",
     "updated_at": "2023-12-29T04:59:47.259Z"
@@ -818,7 +829,7 @@
   "pk": "b8db819e-db3b-4c59-a7d0-dc0bae6dc772",
   "fields": {
     "description": "Pago TDC ITAU",
-    "amount": 1.0,
+    "amount": -100.0,
     "date": "2024-03-26",
     "created_at": "2023-12-29T04:59:47.257Z",
     "updated_at": "2023-12-29T04:59:47.259Z"
@@ -829,7 +840,7 @@
   "pk": "bca111cc-489b-4e8f-93d8-b7968d16292f",
   "fields": {
     "description": "EXPRESS BUIN SAN MARTIN",
-    "amount": 1.0,
+    "amount": -100.0,
     "date": "2024-02-25",
     "created_at": "2023-12-29T04:59:47.257Z",
     "updated_at": "2023-12-29T04:59:47.259Z"
@@ -840,7 +851,7 @@
   "pk": "bd5b44f9-5c9d-4a5f-84f2-dede45a6fd67",
   "fields": {
     "description": "COMPRA NACIONAL EASY LA DEHESA",
-    "amount": 1.0,
+    "amount": -100.0,
     "date": "2024-02-05",
     "created_at": "2023-12-29T04:59:47.257Z",
     "updated_at": "2023-12-29T04:59:47.259Z"
@@ -851,7 +862,7 @@
   "pk": "be2bf39a-a7a0-4ed0-93c3-29cfb58027f2",
   "fields": {
     "description": "EXPRESS CIUDAD DE BARCELO",
-    "amount": 1.0,
+    "amount": -100.0,
     "date": "2024-02-28",
     "created_at": "2023-12-29T04:59:47.257Z",
     "updated_at": "2023-12-29T04:59:47.259Z"
@@ -862,7 +873,7 @@
   "pk": "c7dbf25d-0d98-48d2-8b9e-5716424bf615",
   "fields": {
     "description": "PAYPAL *UBERPAYMENT",
-    "amount": 1.0,
+    "amount": -100.0,
     "date": "2024-03-08",
     "created_at": "2023-12-29T04:59:47.257Z",
     "updated_at": "2023-12-29T04:59:47.259Z"
@@ -873,7 +884,7 @@
   "pk": "c923347d-76b3-462e-9edd-bbbc9f03bffd",
   "fields": {
     "description": "UNIMARC ANDALUE (CABRERO)",
-    "amount": 1.0,
+    "amount": -100.0,
     "date": "2024-03-31",
     "created_at": "2023-12-29T04:59:47.257Z",
     "updated_at": "2023-12-29T04:59:47.259Z"
@@ -884,7 +895,7 @@
   "pk": "ca491476-4ac6-4864-8bf9-8f826718640d",
   "fields": {
     "description": "Pago TDC ITAU",
-    "amount": 1.0,
+    "amount": -100.0,
     "date": "2024-03-25",
     "created_at": "2023-12-29T04:59:47.257Z",
     "updated_at": "2023-12-29T04:59:47.259Z"
@@ -895,7 +906,7 @@
   "pk": "cc9264b1-e149-46c4-b3fb-ebc3756b7e80",
   "fields": {
     "description": "McDonalds Las Condes",
-    "amount": 1.0,
+    "amount": -100.0,
     "date": "2024-01-06",
     "created_at": "2023-12-29T04:59:47.257Z",
     "updated_at": "2023-12-29T04:59:47.259Z"
@@ -906,7 +917,7 @@
   "pk": "cf4a211b-489c-488b-a99a-e967c757fb62",
   "fields": {
     "description": "DOMINO'S 3232",
-    "amount": 1.0,
+    "amount": -100.0,
     "date": "2024-01-18",
     "created_at": "2023-12-29T04:59:47.257Z",
     "updated_at": "2023-12-29T04:59:47.259Z"
@@ -917,7 +928,7 @@
   "pk": "d1c0bd75-1aee-4901-9ef9-2a7897518e16",
   "fields": {
     "description": "PETROBRAS 11 ORTE/7 SU",
-    "amount": 1.0,
+    "amount": -100.0,
     "date": "2023-12-28",
     "created_at": "2023-12-29T04:59:47.257Z",
     "updated_at": "2023-12-29T04:59:47.259Z"
@@ -928,7 +939,7 @@
   "pk": "d452b248-da48-4734-8c83-d9261663aacd",
   "fields": {
     "description": "UNIMARC ATACAMA",
-    "amount": 1.0,
+    "amount": -100.0,
     "date": "2024-04-04",
     "created_at": "2023-12-29T04:59:47.257Z",
     "updated_at": "2023-12-29T04:59:47.259Z"
@@ -939,7 +950,7 @@
   "pk": "d59336f3-51f3-4227-96d9-e2f1c1ff356e",
   "fields": {
     "description": "UNIRED CL AGUAS ANDINAS",
-    "amount": 1.0,
+    "amount": -100.0,
     "date": "2024-02-01",
     "created_at": "2023-12-29T04:59:47.257Z",
     "updated_at": "2023-12-29T04:59:47.259Z"
@@ -950,7 +961,7 @@
   "pk": "d73ee089-f92e-4045-a785-db372706f6ab",
   "fields": {
     "description": "BC UBER CASH",
-    "amount": 1.0,
+    "amount": -100.0,
     "date": "2024-03-03",
     "created_at": "2023-12-29T04:59:47.257Z",
     "updated_at": "2023-12-29T04:59:47.259Z"
@@ -961,7 +972,7 @@
   "pk": "dad095a6-afdb-4464-9e31-0b591b2ee52b",
   "fields": {
     "description": "Compra Nacional EASY RANCAGUA",
-    "amount": 1.0,
+    "amount": -100.0,
     "date": "2024-02-06",
     "created_at": "2023-12-29T04:59:47.257Z",
     "updated_at": "2023-12-29T04:59:47.259Z"
@@ -972,7 +983,7 @@
   "pk": "db5486ea-13d8-4a77-a131-38a2d3c6d57c",
   "fields": {
     "description": "PAYU *UBER TR",
-    "amount": 1.0,
+    "amount": -100.0,
     "date": "2024-03-09",
     "created_at": "2023-12-29T04:59:47.257Z",
     "updated_at": "2023-12-29T04:59:47.259Z"
@@ -983,7 +994,7 @@
   "pk": "dc340482-fb14-44d1-b408-54a0ba9cbed9",
   "fields": {
     "description": "UBER* EATS",
-    "amount": 1.0,
+    "amount": -100.0,
     "date": "2024-03-21",
     "created_at": "2023-12-29T04:59:47.257Z",
     "updated_at": "2023-12-29T04:59:47.259Z"
@@ -994,7 +1005,7 @@
   "pk": "e39712c7-f2f7-4971-a48e-0caba37eba28",
   "fields": {
     "description": "PAYPAL *UBER BR",
-    "amount": 1.0,
+    "amount": -100.0,
     "date": "2024-03-05",
     "created_at": "2023-12-29T04:59:47.257Z",
     "updated_at": "2023-12-29T04:59:47.259Z"
@@ -1005,7 +1016,7 @@
   "pk": "e4d7b198-cc24-461c-b9f4-512c3db48ed4",
   "fields": {
     "description": "EASY ANTOFAGASTA",
-    "amount": 1.0,
+    "amount": -100.0,
     "date": "2024-02-09",
     "created_at": "2023-12-29T04:59:47.257Z",
     "updated_at": "2023-12-29T04:59:47.259Z"
@@ -1016,7 +1027,7 @@
   "pk": "ec869c68-34c6-4cac-b42c-db2b895e923d",
   "fields": {
     "description": "UBER *EATS HELP.UBER.COM",
-    "amount": 1.0,
+    "amount": -100.0,
     "date": "2024-03-16",
     "created_at": "2023-12-29T04:59:47.257Z",
     "updated_at": "2023-12-29T04:59:47.259Z"
@@ -1027,7 +1038,7 @@
   "pk": "ecf1df60-ccbd-4ebd-be2b-5f6dd6cb8002",
   "fields": {
     "description": "C. VERDE JUMBO RANCAGUA",
-    "amount": 1.0,
+    "amount": -100.0,
     "date": "2024-01-28",
     "created_at": "2023-12-29T04:59:47.257Z",
     "updated_at": "2023-12-29T04:59:47.259Z"
@@ -1038,7 +1049,7 @@
   "pk": "f8d921a7-11c4-4126-82a8-dac3065b4493",
   "fields": {
     "description": "UNIMARC ANGOL I",
-    "amount": 1.0,
+    "amount": -100.0,
     "date": "2024-04-01",
     "created_at": "2023-12-29T04:59:47.257Z",
     "updated_at": "2023-12-29T04:59:47.259Z"
@@ -1049,7 +1060,7 @@
   "pk": "f9c3f249-8845-4772-a92f-137f9cc6cfb5",
   "fields": {
     "description": "EXPRESS ALGARROBO",
-    "amount": 1.0,
+    "amount": -100.0,
     "date": "2024-02-19",
     "created_at": "2023-12-29T04:59:47.257Z",
     "updated_at": "2023-12-29T04:59:47.259Z"
@@ -1060,7 +1071,7 @@
   "pk": "fccd6f0a-9e80-4499-84d7-750c5bc2d819",
   "fields": {
     "description": "UBER CANADA/UBEREATS",
-    "amount": 1.0,
+    "amount": -100.0,
     "date": "2024-03-17",
     "created_at": "2023-12-29T04:59:47.257Z",
     "updated_at": "2023-12-29T04:59:47.259Z"
@@ -1071,7 +1082,7 @@
   "pk": "fda0062c-5892-4bbd-ba39-3aa828d083bd",
   "fields": {
     "description": "FACEBK 85ENTJXAQ2",
-    "amount": 1.0,
+    "amount": -100.0,
     "date": "2024-01-07",
     "created_at": "2023-12-29T04:59:47.257Z",
     "updated_at": "2023-12-29T04:59:47.259Z"
@@ -1082,7 +1093,7 @@
   "pk": "fe479f53-26e9-4e4e-9426-4404838759e3",
   "fields": {
     "description": "DOMINO SANTA ROSA",
-    "amount": 1.0,
+    "amount": -100.0,
     "date": "2024-01-15",
     "created_at": "2023-12-29T04:59:47.257Z",
     "updated_at": "2023-12-29T04:59:47.259Z"
@@ -1093,7 +1104,7 @@
   "pk": "ff1f557e-2aea-4b57-9088-2deeccd67e68",
   "fields": {
     "description": "PAYPAL *UBEREATS AU",
-    "amount": 1.0,
+    "amount": -100.0,
     "date": "2024-03-13",
     "created_at": "2023-12-29T04:59:47.257Z",
     "updated_at": "2023-12-29T04:59:47.259Z"
